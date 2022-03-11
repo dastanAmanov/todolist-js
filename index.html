@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="todo-text">ToDoList</h1>
+        <div class="row">
+            <form id="form">
+                <input 
+                    id="input" 
+                    class="form-input"  
+                    type="text" 
+                    placeholder="ToDoList" 
+                    autocomplete="off" 
+                    required
+                />
+            </form>
+            <ul id="list" class="list-group"></ul>
+           <template id="template">
+                <li class="list-item">
+                <div class="item-block"> 
+                    <input id="input-checkbox" type="checkbox">
+                    <p id="text-item"></p>
+                </div>  
+                    <button id="delete-btn" class="btn-primary">Delete</button>
+                </li>
+           </template>
+           <div class="counter-row">
+            <div><span id="all-count">0</span> All</div>
+            <div><span id="completed-count">0</span> Complated</div>
+            <div><span id="uncompleted-count">0</span> Uncomplated</div>
+           </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
