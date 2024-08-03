@@ -23,12 +23,13 @@
 form {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #ccc;
 }
 form input{
     width: 100%;
     padding: 15px 10px;
     border: none;
-    border-bottom: 1px solid #ccc;
+
     outline: none;
     font-weight: 600;
     font-size: 18px;
@@ -36,10 +37,10 @@ form input{
 }
 form .btn{
     border: none;
-    padding: 8px 12px;
+    padding: 10px 15px;
     margin: 10px;
     border-radius: 4px;
-    color: #000;
+    color: #fff;
     background-color: #0D6EFD;
     font-weight: 600;
     font-family: sans-serif;
