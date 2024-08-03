@@ -20,6 +20,10 @@
     border: 2px solid #ccc;
     border-radius: 4px;
 }
+form {
+    display: flex;
+    justify-content: center;
+}
 form input{
     width: 100%;
     padding: 15px 10px;
@@ -29,6 +33,15 @@ form input{
     font-weight: 600;
     font-size: 18px;
     background-color: transparent;
+}
+form .btn{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #0D6EFD;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 ul{
     min-height: 50px;
